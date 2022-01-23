@@ -3,12 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import disney1 from "../../Assets/Projects/disney1.jpeg";
+import todo from "../../Assets/Projects/todo.jpg";
+import amazon from "../../Assets/Projects/amazon.jpeg";
+import google from "../../Assets/google1.jpg";
+import covid from "../../Assets/Projects/covid.jpg";
+import netflix from "../../Assets/Projects/netflix.jpg";
 
 function Projects() {
   return (
@@ -19,67 +19,75 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are some projects I've worked on recently. I focused on
+          <span className="purple"> Social Media </span> and using my work
+          tools, which I'm comfortable with making{" "}
+          <span className="purple">Clones of these Generally known Sites</span>{" "}
+          , but of course I haven't worked on all the features .I based myself
+          mainly on the front side, authentication and the purchase part
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={google}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="Google clone"
+              description="A simple clone of Google built with Next.js and TailwindCss (Responsive, SSR React, Pagination),
+              
+just some features we can use like google search bar i have works by google API with google cloud"
+              link="https://google-2-0-yt-fawn.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={disney1}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Disney + Clone"
+              description="The Clone disney with Redux ,React.js ,Styled Component and Firebase ,
+              so we can view resume and see movie trailers and use search bar
+"
+              link="https://disneyplus-clone-f8077.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={amazon}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="Amazon Clone"
+              description="The Clone Amazon BUilt With Next.js, Complete Frontend & API,Checkout page with Redux + Google sign in with NextAuth Authentication  authentication is functional so we can display and buy any amazon product"
+              link="https://amazon-clone-kappa-six.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={netflix}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Netflix Clone"
+              description="The Netflix clone built with React.js and css Style , randomly show netflix movies so you can see any trailer"
+              link="https://netflix-clone-2b64c.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={covid}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Covid-19 Tracker"
+              description="Build a COVID-19 Tracker with REACT JS  (React Hooks and Material UI)."
+              link="https://covid-19-tracker-pearl-omega.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              imgPath={todo}
+              isBlog={true}
+              title="Todo List"
+              description="A simple todo list, this is my first individual project that i worked on when i started with React.js and Firebase."
+              link="https://todo-ixdnqxxm7-khaledghaffarii.vercel.app/"
             />
           </Col>
         </Row>

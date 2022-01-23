@@ -12,6 +12,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import ScrollToTop from "./components/ScrollToTop";
+import Certificate from './components/Certificate';
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -34,7 +35,8 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/project" component={Projects} />
           <Route path="/about" component={About} />
-          <Route path="/resume" component={Resume} />
+          <Route path="/resume" component={Resume} />{" "}
+          <Route path="/certificate" component={Certificate} />
         </Switch>
         <Footer />
       </div>

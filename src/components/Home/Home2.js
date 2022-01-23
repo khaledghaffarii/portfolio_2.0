@@ -64,7 +64,7 @@ function Home2() {
               <img
                 src={myImg}
                 className=""
-                style={{ borderRadius: 200, marginLeft: 35,width: 350}}
+                style={{ borderRadius: 200,width: 250}}
                 alt="avatar"
               />
             </Tilt>

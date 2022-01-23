@@ -99,9 +99,9 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://blogs.soumya-jit.tech/"
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="/certificate"
+                onClick={() => updateExpanded(false)}
               >
                 <GiDiploma style={{ marginBottom: "2px" }} /> certificate
               </Nav.Link>
@@ -109,7 +109,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/khaledghaffarii/portfolio_2.0"
                 target="_blank"
                 className="fork-btn-inner"
               >
