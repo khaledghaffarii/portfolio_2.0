@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="http://soumya-jit.tech/" target="_blank">https://khaled-ghaffari.vercel.app</a>
+  <a href="https://khaled-ghaffari.vercel.app" target="_blank">DEMO</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/khaledProtofolio-removebg-preview.png" />
